@@ -1,0 +1,45 @@
+{
+  "channels": {
+    "fixture": {
+      "holdout": {
+        "counts": {
+          "not_rederived": 0,
+          "rederived": 0,
+          "unclear": 0,
+          "unknown": 1
+        },
+        "judgments": 1,
+        "rates": {
+          "not_rederived": 0.0,
+          "rederived": 0.0,
+          "unclear": 0.0,
+          "unknown": 1.0
+        },
+        "sessions": 1
+      },
+      "on": {
+        "counts": {
+          "harmed": 0,
+          "helped": 1,
+          "neutral": 0,
+          "noise": 0,
+          "unclear": 1,
+          "unknown": 0
+        },
+        "judgments": 2,
+        "rates": {
+          "harmed": 0.0,
+          "helped": 0.5,
+          "neutral": 0.0,
+          "noise": 0.0,
+          "unclear": 0.5,
+          "unknown": 0.0
+        },
+        "sessions": 1
+      }
+    }
+  },
+  "interpretation": "Descriptive fixture judgments; carryover is possible and causal utility is not established.",
+  "rubric_version": "fixture-v1",
+  "schema_version": 1
+}
