@@ -1,0 +1,3 @@
+{"schema_version":1,"rubric_version":"fixture-v1","id":"j1","session_id":"s1","channel":"fixture","condition":"on","judgment":"helped"}
+{"schema_version":1,"rubric_version":"fixture-v1","id":"j2","session_id":"s1","channel":"fixture","condition":"on","judgment":"unclear"}
+{"schema_version":1,"rubric_version":"fixture-v1","id":"j3","session_id":"s2","channel":"fixture","condition":"holdout","judgment":"unknown"}
