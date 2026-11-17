@@ -57,6 +57,8 @@ The table below preserves the prepublication acceptance snapshot recorded before
 
 **Prepublication snapshot status: BLOCKED pending rights/license authorization and owner approval.**
 
-## Current release authorization (2026-11-16)
+## Current release status (2026-11-17)
 
-The user has now confirmed rights to publish, selected MIT, and authorized public repository creation and push. This candidate is licensed under MIT via the root `LICENSE`. The requested external actions are authorized but have not yet been reported as executed here; publication completion must be recorded only after the release operator confirms the actual remote creation and push. No independent legal clearance is claimed. Technical verification remains as summarized above; the full Python 3.9 run remains unverified because of environment cleanup failure.
+The approved release is published at [https://github.com/muo-ahn/kwvp-public-core](https://github.com/muo-ahn/kwvp-public-core), whose default public branch is `public-core`. Publication completed through the connected GitHub API after the direct CLI push did not succeed; no TLS verification was disabled and no secrets were read. No protected-branch write or merge was performed. All 24 remote files were independently fetched and matched the local release manifest exactly. The repository is licensed under MIT via the root `LICENSE`, as authorized by the user on 2026-11-16. This records the user's rights confirmation and release authorization, not an independent legal opinion.
+
+The AC01 BLOCKED result remains as a historical prepublication finding: the shared source checkout's history advanced during packaging, though its file tree matched the initial snapshot. AC12 also remains a prepublication snapshot only; it is not a statement about the current release. CI status is not asserted here.
